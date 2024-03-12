@@ -7,7 +7,8 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f5f5f5;
-}
+
+}   
 
 header {
     background-color: #333;
@@ -118,5 +119,9 @@ input:checked+.collapse {
     .title {
         font-size: 12px;
     }
+    img {
+        width: 160px;
+    }
+
 
 }
