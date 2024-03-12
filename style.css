@@ -1,0 +1,122 @@
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: left;
+    padding: 20px;
+
+    & .img {
+        position: absolute;
+        left: auto;
+        right: 20px;
+        top: 20px;
+
+        & button {
+            border: transparent;
+            border-color: transparent;
+            padding: 10px;
+        }
+    }
+
+    & .title {
+        width: 40%;
+        position: relative;
+    }
+
+    & h1 {
+        color: white;
+        top: 5px;
+    }
+}
+
+h1,
+h2,
+h3 {
+    color: #333;
+}
+
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#contact {
+    margin-bottom: 70px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: right;
+    padding: 0px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/*Collapse Sobre*/
+label input[type="checkbox"] {
+    display: none;
+}
+
+label {
+    & .aling{
+        font-weight: bold;
+        font-size: 1.5em;
+        width: 100%;
+        & svg {
+           float: right;
+        }
+
+    }
+    & h2 {
+        cursor: pointer;
+        text-decoration: underline;
+
+
+    }
+    & .collapse{
+        text-align: left;
+    }
+}
+
+.collapse {
+    height: 0px;
+    overflow: hidden;
+    transition: height 0.8s;
+}
+
+input:checked+.collapse {
+    height: 500px;
+}
+
+/* visualizacao para celular */
+@media only screen and (max-width: 900px) {
+    h1 {
+        font-size: 16px;
+    }
+
+    .title {
+        font-size: 12px;
+    }
+
+}
