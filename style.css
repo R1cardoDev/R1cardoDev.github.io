@@ -107,7 +107,7 @@ label {
 }
 
 input:checked+.collapse {
-    height: 500px;
+    height: auto;
 }
 
 /* visualizacao para celular */
@@ -120,7 +120,7 @@ input:checked+.collapse {
         font-size: 12px;
     }
     img {
-        width: 160px;
+        width: 140px;
     }
 
 
