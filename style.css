@@ -21,6 +21,10 @@ header {
         left: auto;
         right: 20px;
         top: 20px;
+        & img {
+            width: 140px;
+            height: 160px;
+        }
 
         & button {
             border: transparent;
