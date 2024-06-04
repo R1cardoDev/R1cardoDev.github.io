@@ -22,8 +22,8 @@ header {
         right: 20px;
         top: 20px;
         & img {
-            width: 140px;
-            height: 160px;
+            width: 150px;
+            height: 170px;
         }
 
         & button {
@@ -131,10 +131,14 @@ input:checked+.collapse {
     .title {
         font-size: 12px;
     }
-    img {
-        width: 140px;
-    }
-    
+    header {   
+        & .img {
+            & img {
+                    max-width: 130px;
+                    height: 150px;
+                }
+            }
+        }
 
 
 }
