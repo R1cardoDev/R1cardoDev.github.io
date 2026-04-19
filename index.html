@@ -1,195 +1,167 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Ricardo Rodrigues da Silva | Desenvolvedor Full Stack</title>
-
     <meta name="description"
         content="Desenvolvedor Full Stack especializado em automação, sistemas de gestão e análise de dados. Experiência com Python, JavaScript, SQL e Power BI.">
-
     <meta name="author" content="Ricardo Rodrigues da Silva">
-
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-
-    <!-- ================= HEADER ================= -->
-
-    <header class="container">
-        <div class="profile">
+    <header class="container header-row">
+        <div class="profile-card">
             <img src="img.png" alt="Foto de Ricardo Rodrigues da Silva">
         </div>
 
         <div class="intro">
             <h1>Ricardo Rodrigues da Silva</h1>
             <p class="subtitle">Desenvolvedor Full Stack | Automação e Sistemas de Gestão</p>
+            <p class="hero-text">
+                Crio aplicações e automações que reduzem tempo operacional e melhoram o controle de processos.
+                Trabalho com soluções web e bancos de dados para negócios mais ágeis e inteligentes.
+            </p>
         </div>
 
-        <button id="theme-toggle" aria-label="Alternar tema">
-            🌙
-        </button>
-
+        <button id="theme-toggle" class="theme-toggle" aria-label="Alternar tema">🌙</button>
     </header>
 
-    <!-- ================= SOBRE ================= -->
+    <main>
+        <section id="about" class="container">
+            <h2>Sobre Mim</h2>
+            <p>
+                Sou desenvolvedor Full Stack com foco em automação, sistemas de gestão e análise de dados.
+                Já desenvolvi soluções para controle de vendas, estoque, lançamentos financeiros e relatórios
+                gerenciais.
+                Meu objetivo é entregar aplicativos práticos que aumentem eficiência, reduzam retrabalho e gerem
+                melhores decisões.
+            </p>
+        </section>
 
-    <section id="about" class="container">
-        <h2>Sobre Mim</h2>
-        <p>
-            Desenvolvedor Full Stack com foco em automação e sistemas de gestão.
-            Experiência no desenvolvimento de aplicações web, integração com banco de dados
-            e criação de soluções voltadas à otimização de processos.
-            Possuo forte base em lógica de programação, modelagem de dados e análise de informações.
-        </p>
-
-    </section>
-
-    <!-- ================= HABILIDADES ================= -->
-
-    <section id="skills" class="container">
-        <h2>Habilidades Técnicas</h2>
-
-        <div class="skills-grid">
-
-            <div>
-                <h3>Linguagens</h3>
-                <ul>
-                    <li>Python</li>
-                    <li>JavaScript</li>
-                    <li>SQL</li>
-                    <li>VBA / VBScript</li>
-                </ul>
+        <section id="skills" class="container">
+            <h2>Habilidades Técnicas</h2>
+            <div class="skills-grid">
+                <article>
+                    <h3>Linguagens</h3>
+                    <ul>
+                        <li>Python</li>
+                        <li>JavaScript</li>
+                        <li>SQL</li>
+                        <li>VBA / VBScript</li>
+                        <li>React</li>
+                        <li>Node</li>
+                    </ul>
+                </article>
+                <article>
+                    <h3>Desenvolvimento Web</h3>
+                    <ul>
+                        <li>HTML5 & CSS3</li>
+                        <li>CRUD com banco de dados</li>
+                        <li>Integração de APIs</li>
+                        <li>Arquitetura básica MVC</li>
+                    </ul>
+                </article>
+                <article>
+                    <h3>Banco de Dados</h3>
+                    <ul>
+                        <li>SQLite</li>
+                        <li>Modelagem Relacional</li>
+                        <li>Consultas Otimizadas</li>
+                    </ul>
+                </article>
+                <article>
+                    <h3>Data & BI</h3>
+                    <ul>
+                        <li>Power BI</li>
+                        <li>DAX</li>
+                        <li>ETL e Transformação de Dados</li>
+                    </ul>
+                </article>
+                <article>
+                    <h3>Infraestrutura</h3>
+                    <ul>
+                        <li>Redes e servidores</li>
+                        <li>Manutenção de hardware</li>
+                        <li>Configuração de sistemas</li>
+                    </ul>
+                </article>
             </div>
+        </section>
 
-            <div>
-                <h3>Desenvolvimento Web</h3>
+        <section id="projects" class="container">
+            <h2>Projetos</h2>
+
+            <article class="project">
+                <h3>Sistema Frente de Caixa</h3>
+                <p>Sistema web para controle de vendas, estoque e relatórios gerenciais.</p>
                 <ul>
-                    <li>HTML5 & CSS3</li>
-                    <li>CRUD com banco de dados</li>
-                    <li>Integração de APIs</li>
-                    <li>Arquitetura básica MVC</li>
+                    <li>Autenticação de usuários</li>
+                    <li>Gestão de estoque automatizada</li>
+                    <li>Relatórios de vendas e inventário</li>
                 </ul>
-            </div>
+                <a href="https://sites.google.com/view/controledecliente/AKfycbxiBwTFyU-1PP1ziVgALjY2iSQYAWVYtzorD1G9O3iTS1B78enR3MSDgZJx9Yo2-6VC"
+                    target="_blank" rel="noopener noreferrer">Ver Projeto</a>
+            </article>
 
-            <div>
-                <h3>Banco de Dados</h3>
-                <ul>
-                    <li>SQLite</li>
-                    <li>Modelagem Relacional</li>
-                    <li>Consultas Otimizadas</li>
-                </ul>
-            </div>
+            <article class="project">
+                <h3>Sistema de Lançamento de Créditos</h3>
+                <p>Gerenciamento de créditos para agregados com acompanhamento em tempo real.</p>
+                <a href="https://sites.google.com/view/creditoagregadoon" target="_blank" rel="noopener noreferrer">Ver Projeto</a>
+            </article>
 
-            <div>
-                <h3>Data & BI</h3>
-                <ul>
-                    <li>Power BI</li>
-                    <li>DAX</li>
-                    <li>ETL e Transformação de Dados</li>
-                </ul>
-            </div>
+            <article class="project">
+                <h3>E-commerce (Em Desenvolvimento)</h3>
+                <p>Plataforma de compras com carrinho de compras e preview de produtos.</p>
+                <a href="https://sites.google.com/view/e-comers/home" target="_blank" rel="noopener noreferrer">Ver Preview</a>
+            </article>
 
-            <div>
-                <h3>Infraestrutura</h3>
-                <ul>
-                    <li>Redes e Servidores</li>
-                    <li>Manutenção de Hardware</li>
-                    <li>Configuração de Sistemas</li>
-                </ul>
-            </div>
+            <article class="project">
+                <h3>Jogo da Velha</h3>
+                <p>Aplicação interativa com interface limpa e usabilidade simples.</p>
+                <a href="https://sites.google.com/view/j0godavelha" target="_blank" rel="noopener noreferrer">Jogar</a>
+            </article>
 
-        </div>
-    </section>
+            <article class="project">
+                <h3>Repositório GitHub</h3>
+                <p>Projetos diversos, experimentações e exemplos de código.</p>
+                <a href="https://github.com/R1cardoDev" target="_blank" rel="noopener noreferrer">Acessar GitHub</a>
+            </article>
+        </section>
 
-    <!-- ================= PROJETOS ================= -->
-
-    <section id="projects" class="container">
-        <h2>Projetos</h2>
-
-        <article class="project">
-            <h3>Sistema Frente de Caixa</h3>
-            <p>Sistema web para controle de vendas e estoque.</p>
-            <ul>
-                <li>Controle de login com autenticação</li>
-                <li>Gestão de estoque automatizada</li>
-                <li>Relatórios gerenciais</li>
+        <section id="contact" class="container">
+            <h2>Contato</h2>
+            <ul class="contact-list">
+                <li><a href="mailto:ricardorodriguessilva77@gmail.com">Contato</a></li>
+                <li><a href="https://github.com/R1cardoDev" target="_blank" rel="noopener noreferrer">Repositório</a></li>
             </ul>
-            <a href="https://sites.google.com/view/controledecliente/AKfycbxiBwTFyU-1PP1ziVgALjY2iSQYAWVYtzorD1G9O3iTS1B78enR3MSDgZJx9Yo2-6VC"
-                target="_blank" rel="noopener noreferrer">Ver Projeto</a>
-        </article>
-
-        <article class="project">
-            <h3>Sistema de Lançamento de Créditos</h3>
-            <p>Sistema para controle e acompanhamento de créditos de agregados.</p>
-            <a href="https://sites.google.com/view/creditoagregadoon" target="_blank" rel="noopener noreferrer">Ver
-                Projeto</a>
-        </article>
-
-        <article class="project">
-            <h3>E-commerce (Em Desenvolvimento)</h3>
-            <p>Plataforma de compras com carrinho e preview dinâmico.</p>
-            <a href="https://sites.google.com/view/e-comers/home" target="_blank" rel="noopener noreferrer">Ver
-                Preview</a>
-        </article>
-
-        <article class="project">
-            <h3>Jogo da Velha</h3>
-            <p>Aplicação web com interface interativa e design minimalista.</p>
-            <a href="https://sites.google.com/view/j0godavelha" target="_blank" rel="noopener noreferrer">Jogar</a>
-        </article>
-
-        <article class="project">
-            <h3>Repositório GitHub</h3>
-            <p>Projetos diversos e experimentações em desenvolvimento.</p>
-            <a href="https://github.com/R1cardoDev" target="_blank" rel="noopener noreferrer">Acessar GitHub</a>
-        </article>
-
-    </section>
-
-    <!-- ================= CONTATO ================= -->
-
-    <section id="contact" class="container">
-        <h2>Contato</h2>
-
-        <ul class="contact-list">
-            <li><a href="mailto:ricardorodriguessilva77@gmail.com">ricardorodriguessilva77@gmail.com</a></li>
-            <li><a href="https://github.com/R1cardoDev" target="_blank" rel="noopener noreferrer">GitHub</a></li>
-        </ul>
-    </section>
-
-    <!-- ================= FOOTER ================= -->
+        </section>
+    </main>
 
     <footer>
         <p>&copy; 2026 Ricardo Rodrigues da Silva | R1cardoDev</p>
     </footer>
+
     <script>
         const toggleButton = document.getElementById('theme-toggle');
         const body = document.body;
 
-        // Verifica preferência salva
-        if (localStorage.getItem('theme') === 'dark') {
+        const savedTheme = localStorage.getItem('theme');
+        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+        if (savedTheme === 'dark' || (!savedTheme && prefersDark)) {
             body.classList.add('dark-mode');
             toggleButton.textContent = '☀️';
         }
 
         toggleButton.addEventListener('click', () => {
-            body.classList.toggle('dark-mode');
-
-            if (body.classList.contains('dark-mode')) {
-                localStorage.setItem('theme', 'dark');
-                toggleButton.textContent = '☀️';
-            } else {
-                localStorage.setItem('theme', 'light');
-                toggleButton.textContent = '🌙';
-            }
+            const isDark = body.classList.toggle('dark-mode');
+            localStorage.setItem('theme', isDark ? 'dark' : 'light');
+            toggleButton.textContent = isDark ? '☀️' : '🌙';
         });
     </script>
-
-
 </body>
 
 </html>
